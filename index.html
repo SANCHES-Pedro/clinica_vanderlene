@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clínica Vanderlene Sanches | Odontologia Estética e Reabilitação Oral em Brasília</title>
-  <meta name="description" content="Clínica Vanderlene Sanches — Odontologia Estética e Reabilitação Oral no Centro Médico Lúcio Costa, Brasília-DF. Lentes de contato dental, clareamento, implantes e mais. Agende pelo WhatsApp.">
+  <title>Clínica Vanderlene Sanches | Odontologia Estética e Reabilitação Funcional em Brasília</title>
+  <meta name="description" content="Clínica Vanderlene Sanches — Odontologia Estética e Reabilitação Funcional no Centro Médico Lúcio Costa, Brasília-DF. Lentes de contato dental, clareamento, implantes e mais. Agende pelo WhatsApp.">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Clínica Vanderlene Sanches | Odontologia Estética e Reabilitação Oral">
+  <meta property="og:title" content="Clínica Vanderlene Sanches | Odontologia Estética e Reabilitação Funcional">
   <meta property="og:description" content="Transforme seu sorriso com a Dra. Vanderlene Sanches e Dra. Francine Sesti. Odontologia estética e reabilitação oral em Brasília.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
@@ -39,34 +39,12 @@
   </script>
 
   <style>
-    /* Before/After slider thumb */
-    .ba-slider { position: relative; overflow: hidden; cursor: col-resize; }
-    .ba-slider .ba-after { position: absolute; inset: 0; overflow: hidden; }
-    .ba-slider .ba-handle {
-      position: absolute; top: 0; bottom: 0; width: 4px;
-      background: white; cursor: col-resize; z-index: 10;
-      box-shadow: 0 0 8px rgba(0,0,0,.35);
-    }
-    .ba-slider .ba-handle::after {
-      content: '⟨⟩'; position: absolute; top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-      background: white; border-radius: 9999px; width: 40px; height: 40px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 14px; color: #1B4D3E; font-weight: 700;
-      box-shadow: 0 2px 8px rgba(0,0,0,.25);
-    }
-
     /* Floating WhatsApp pulse */
     @keyframes wa-pulse {
       0%, 100% { box-shadow: 0 0 0 0 rgba(37,211,102,.5); }
       50%      { box-shadow: 0 0 0 14px rgba(37,211,102,0); }
     }
     .wa-float { animation: wa-pulse 2s infinite; }
-
-    .ba-slider .ba-after-inner {
-      position: absolute; top: 0; left: 0; height: 100%;
-      object-fit: cover;
-    }
 
     /* Gold divider */
     .gold-divider {
@@ -90,8 +68,8 @@
       <!-- Desktop Links -->
       <ul class="hidden lg:flex items-center gap-6 text-sm font-medium text-white/90">
         <li><a href="#sobre" class="hover:text-gold-clinic transition-colors">Sobre</a></li>
-        <li><a href="#tratamentos" class="hover:text-gold-clinic transition-colors">Tratamentos</a></li>
-        <li><a href="#antes-depois" class="hover:text-gold-clinic transition-colors">Antes e Depois</a></li>
+        <li><a href="#nosso-espaco" class="hover:text-gold-clinic transition-colors">Nosso Espaço</a></li>
+        <li><a href="#tratamentos" class="hover:text-gold-clinic transition-colors">Especialidades</a></li>
         <li><a href="#equipe" class="hover:text-gold-clinic transition-colors">Equipe</a></li>
         <li><a href="#blog" class="hover:text-gold-clinic transition-colors">Blog</a></li>
         <li><a href="#localizacao" class="hover:text-gold-clinic transition-colors">Localização</a></li>
@@ -117,8 +95,8 @@
     <div id="mobile-menu" class="hidden lg:hidden bg-emerald-clinic/95 backdrop-blur-md px-6 pb-6">
       <ul class="flex flex-col gap-4 text-white text-base font-medium">
         <li><a href="#sobre" class="block py-2 hover:text-gold-clinic transition-colors" onclick="closeMobileMenu()">Sobre</a></li>
-        <li><a href="#tratamentos" class="block py-2 hover:text-gold-clinic transition-colors" onclick="closeMobileMenu()">Tratamentos</a></li>
-        <li><a href="#antes-depois" class="block py-2 hover:text-gold-clinic transition-colors" onclick="closeMobileMenu()">Antes e Depois</a></li>
+        <li><a href="#nosso-espaco" class="block py-2 hover:text-gold-clinic transition-colors" onclick="closeMobileMenu()">Nosso Espaço</a></li>
+        <li><a href="#tratamentos" class="block py-2 hover:text-gold-clinic transition-colors" onclick="closeMobileMenu()">Especialidades</a></li>
         <li><a href="#equipe" class="block py-2 hover:text-gold-clinic transition-colors" onclick="closeMobileMenu()">Equipe</a></li>
         <li><a href="#blog" class="block py-2 hover:text-gold-clinic transition-colors" onclick="closeMobileMenu()">Blog</a></li>
         <li><a href="#localizacao" class="block py-2 hover:text-gold-clinic transition-colors" onclick="closeMobileMenu()">Localização</a></li>
@@ -147,7 +125,7 @@
 
       <div class="relative z-10 text-center px-4 max-w-3xl mx-auto">
         <span class="inline-block text-gold-clinic text-sm md:text-base font-semibold tracking-widest uppercase mb-4">
-          Odontologia &amp; Reabilitação Oral
+          Odontologia Estética &amp; Reabilitação Funcional
         </span>
         <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">
           Seu sorriso merece o <em class="text-gold-clinic not-italic">melhor cuidado</em>
@@ -164,7 +142,7 @@
           </a>
           <a href="#tratamentos"
              class="inline-flex items-center gap-2 border-2 border-white/40 hover:border-gold-clinic text-white hover:text-gold-clinic font-semibold px-8 py-3.5 rounded-full text-base transition-colors">
-            Conheça Nossos Tratamentos
+            Conheça Nossas Especialidades
           </a>
         </div>
       </div>
@@ -183,12 +161,9 @@
     <section id="sobre" class="py-20 md:py-28">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
-          <!-- Image placeholder -->
+          <!-- Clinic photo -->
           <div class="relative">
-            <div class="aspect-[4/3] rounded-2xl bg-emerald-clinic/10 flex items-center justify-center text-emerald-clinic/40 text-sm">
-              <!-- Substituir por: <img src="assets/clinica-interior.jpg" alt="Interior da Clínica Vanderlene Sanches" class="w-full h-full object-cover rounded-2xl"> -->
-              Foto da Clínica (800 &times; 600)
-            </div>
+            <img src="assets/recepcao.jpeg" alt="Recepção da Clínica Vanderlene Sanches" class="aspect-[4/3] w-full object-cover rounded-2xl">
             <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-gold-clinic/20 rounded-2xl -z-10"></div>
           </div>
 
@@ -207,20 +182,47 @@
             </p>
 
             <!-- Stats -->
-            <div class="grid grid-cols-3 gap-4 text-center">
-              <div class="bg-emerald-clinic/5 rounded-xl py-4 px-2">
-                <span class="block font-serif text-2xl md:text-3xl text-emerald-clinic font-bold">+10</span>
-                <span class="text-xs md:text-sm text-charcoal/60 mt-1">Anos de Experiência</span>
-              </div>
-              <div class="bg-emerald-clinic/5 rounded-xl py-4 px-2">
-                <span class="block font-serif text-2xl md:text-3xl text-emerald-clinic font-bold">+2.000</span>
-                <span class="text-xs md:text-sm text-charcoal/60 mt-1">Pacientes Atendidos</span>
-              </div>
-              <div class="bg-emerald-clinic/5 rounded-xl py-4 px-2">
-                <span class="block font-serif text-2xl md:text-3xl text-emerald-clinic font-bold">+5.000</span>
-                <span class="text-xs md:text-sm text-charcoal/60 mt-1">Procedimentos Realizados</span>
+            <div class="text-center max-w-xs">
+              <div class="bg-emerald-clinic/5 rounded-xl py-5 px-4">
+                <span class="block font-serif text-3xl md:text-4xl text-emerald-clinic font-bold">+39</span>
+                <span class="text-sm text-charcoal/60 mt-1">Anos de Experiência</span>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--  NOSSO ESPAÇO                                -->
+    <!-- ============================================ -->
+    <section id="nosso-espaco" class="py-20 md:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <div class="gold-divider mx-auto mb-4"></div>
+          <h2 class="font-serif text-3xl md:text-4xl text-emerald-clinic mb-4">Nosso Espaço</h2>
+          <p class="text-charcoal/70 max-w-2xl mx-auto">Um ambiente moderno, acolhedor e equipado com tecnologia de ponta para proporcionar conforto e excelência em cada atendimento.</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+          <!-- Large featured image -->
+          <div class="col-span-2 row-span-2">
+            <img src="assets/entrada-clinica.jpeg" alt="Entrada da Clínica Vanderlene Sanches" class="w-full h-full object-cover rounded-2xl aspect-square">
+          </div>
+          <div>
+            <img src="assets/sala-espera-poltronas.jpeg" alt="Sala de espera com poltronas elegantes" class="w-full h-full object-cover rounded-2xl aspect-square">
+          </div>
+          <div>
+            <img src="assets/sala-espera-cafe.jpeg" alt="Sala de espera com estação de café" class="w-full h-full object-cover rounded-2xl aspect-square">
+          </div>
+          <div>
+            <img src="assets/escritorio.jpeg" alt="Escritório da clínica" class="w-full h-full object-cover rounded-2xl aspect-square">
+          </div>
+          <div>
+            <img src="assets/consultorio.jpeg" alt="Consultório odontológico equipado" class="w-full h-full object-cover rounded-2xl aspect-square">
+          </div>
+          <div>
+            <img src="assets/banheiro.jpeg" alt="Banheiro com detalhes elegantes" class="w-full h-full object-cover rounded-2xl aspect-square">
           </div>
         </div>
       </div>
@@ -229,175 +231,212 @@
     <!-- ============================================ -->
     <!--  4. TRATAMENTOS                              -->
     <!-- ============================================ -->
-    <section id="tratamentos" class="py-20 md:py-28 bg-white">
+    <section id="tratamentos" class="py-20 md:py-28">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <div class="gold-divider mx-auto mb-4"></div>
-          <h2 class="font-serif text-3xl md:text-4xl text-emerald-clinic mb-4">Nossos Tratamentos</h2>
-          <p class="text-charcoal/70 max-w-2xl mx-auto">Oferecemos uma ampla gama de tratamentos odontológicos com foco em estética e reabilitação oral, utilizando técnicas modernas e materiais de alta qualidade.</p>
+          <h2 class="font-serif text-3xl md:text-4xl text-emerald-clinic mb-4">Nossas Especialidades</h2>
+          <p class="text-charcoal/70 max-w-2xl mx-auto">Oferecemos uma ampla gama de especialidades odontológicas com foco em estética e reabilitação funcional, utilizando técnicas modernas e materiais de alta qualidade.</p>
         </div>
 
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <!-- Treatment Card -->
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20Lentes%20de%20Contato%20Dental."
-             target="_blank" rel="noopener"
-             class="group bg-cream rounded-2xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-gold-clinic/30">
-            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-clinic/20 transition-colors">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Estética -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
               <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/></svg>
             </div>
-            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Lentes de Contato Dental</h3>
-            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Laminados ultrafinos de porcelana que transformam cor, formato e alinhamento dos dentes de forma minimamente invasiva.</p>
-            <span class="text-sm text-gold-clinic font-semibold group-hover:underline">Saiba mais &rarr;</span>
-          </a>
-
-          <!-- Treatment Card -->
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20Clareamento%20Dental."
-             target="_blank" rel="noopener"
-             class="group bg-cream rounded-2xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-gold-clinic/30">
-            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-clinic/20 transition-colors">
-              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Estética</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Lentes de contato, facetas de porcelana, facetas em resina composta e clareamento para transformar seu sorriso.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-estetica">Saiba mais &darr;</button>
+            <div id="spec-estetica" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">As facetas em resina composta permitem transformar totalmente seu sorriso com <strong>desgaste zero</strong>, apenas com pequenos acréscimos sobre os dentes naturais. Já as lentes de contato e facetas de porcelana oferecem durabilidade excepcional e um resultado altamente natural.</p>
+              <p class="mb-4">A estética vai muito além da beleza: eleva sua autoestima e fortalece sua presença em todos os momentos da vida — no trabalho, nos relacionamentos e na forma como você se vê no espelho.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20Est%C3%A9tica%20Dental." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
             </div>
-            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Clareamento Dental</h3>
-            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Técnica segura e eficaz para devolver a brancura natural dos seus dentes, com resultados visíveis desde a primeira sessão.</p>
-            <span class="text-sm text-gold-clinic font-semibold group-hover:underline">Saiba mais &rarr;</span>
-          </a>
+          </div>
 
-          <!-- Treatment Card -->
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20Implantes%20Dent%C3%A1rios."
-             target="_blank" rel="noopener"
-             class="group bg-cream rounded-2xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-gold-clinic/30">
-            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-clinic/20 transition-colors">
-              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17l-5.1-5.1a2.121 2.121 0 113-3l5.1 5.1m0 0l5.1 5.1a2.121 2.121 0 01-3 3l-5.1-5.1zm0 0L9 21m3.42-5.83L15 12"/></svg>
-            </div>
-            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Implantes Dentários</h3>
-            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Solução definitiva para a perda de dentes, devolvendo função mastigatória e estética com resultados naturais e duradouros.</p>
-            <span class="text-sm text-gold-clinic font-semibold group-hover:underline">Saiba mais &rarr;</span>
-          </a>
-
-          <!-- Treatment Card -->
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20Pr%C3%B3tese%20Dent%C3%A1ria."
-             target="_blank" rel="noopener"
-             class="group bg-cream rounded-2xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-gold-clinic/30">
-            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-clinic/20 transition-colors">
-              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375"/></svg>
-            </div>
-            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Prótese Dentária</h3>
-            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Próteses fixas e removíveis de alta qualidade, projetadas para devolver conforto, funcionalidade e a beleza do seu sorriso.</p>
-            <span class="text-sm text-gold-clinic font-semibold group-hover:underline">Saiba mais &rarr;</span>
-          </a>
-
-          <!-- Treatment Card -->
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20Reabilita%C3%A7%C3%A3o%20Oral%20Completa."
-             target="_blank" rel="noopener"
-             class="group bg-cream rounded-2xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-gold-clinic/30">
-            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-clinic/20 transition-colors">
-              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182"/></svg>
-            </div>
-            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Reabilitação Oral Completa</h3>
-            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Plano integrado para restaurar saúde, função e estética bucal em casos complexos, com acompanhamento personalizado.</p>
-            <span class="text-sm text-gold-clinic font-semibold group-hover:underline">Saiba mais &rarr;</span>
-          </a>
-
-          <!-- Treatment Card -->
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20Harmoniza%C3%A7%C3%A3o%20Orofacial."
-             target="_blank" rel="noopener"
-             class="group bg-cream rounded-2xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-gold-clinic/30">
-            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-clinic/20 transition-colors">
-              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z"/></svg>
-            </div>
-            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Harmonização Orofacial</h3>
-            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Procedimentos estéticos faciais como botox e preenchimento labial, realizados por especialistas para realçar a harmonia do rosto.</p>
-            <span class="text-sm text-gold-clinic font-semibold group-hover:underline">Saiba mais &rarr;</span>
-          </a>
-
-          <!-- Treatment Card -->
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20Facetas%20de%20Porcelana."
-             target="_blank" rel="noopener"
-             class="group bg-cream rounded-2xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-gold-clinic/30">
-            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-clinic/20 transition-colors">
-              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"/></svg>
-            </div>
-            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Facetas de Porcelana</h3>
-            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Lâminas de porcelana sob medida para corrigir imperfeições, restaurar dentes danificados e criar um sorriso harmonioso.</p>
-            <span class="text-sm text-gold-clinic font-semibold group-hover:underline">Saiba mais &rarr;</span>
-          </a>
-
-          <!-- Treatment Card -->
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20Tratamento%20de%20Canal."
-             target="_blank" rel="noopener"
-             class="group bg-cream rounded-2xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-gold-clinic/30">
-            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-emerald-clinic/20 transition-colors">
+          <!-- Periodontia -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
               <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>
             </div>
-            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Tratamento de Canal</h3>
-            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Endodontia moderna e indolor para salvar dentes comprometidos, eliminando infecções e preservando a estrutura natural.</p>
-            <span class="text-sm text-gold-clinic font-semibold group-hover:underline">Saiba mais &rarr;</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================ -->
-    <!--  5. ANTES E DEPOIS                           -->
-    <!-- ============================================ -->
-    <section id="antes-depois" class="py-20 md:py-28">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <div class="gold-divider mx-auto mb-4"></div>
-          <h2 class="font-serif text-3xl md:text-4xl text-emerald-clinic mb-4">Antes e Depois</h2>
-          <p class="text-charcoal/70 max-w-2xl mx-auto">Veja a transformação dos nossos pacientes e descubra o que podemos fazer pelo seu sorriso.</p>
-        </div>
-
-        <!-- Before / After Sliders -->
-        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <!-- Caso 1 -->
-          <div class="ba-slider aspect-[4/3] rounded-2xl overflow-hidden bg-charcoal/10 select-none" data-ba>
-            <img src="assets/antes_1.jpeg" alt="Antes — Caso 1" class="absolute inset-0 w-full h-full object-cover z-0">
-            <div class="ba-after" style="width:50%">
-              <img src="assets/depois_1.jpeg" alt="Depois — Caso 1" class="ba-after-inner object-cover">
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Periodontia</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Tratamento e prevenção de doenças da gengiva, fundamentais para a saúde do corpo inteiro.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-perio">Saiba mais &darr;</button>
+            <div id="spec-perio" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">A saúde da gengiva está diretamente ligada à saúde do corpo inteiro. Doenças periodontais podem contribuir para <strong>cardiopatias</strong>, <strong>doenças renais</strong> e até condições neurológicas como o <strong>Alzheimer</strong>.</p>
+              <p class="mb-4">Com a prevenção periodontal a cada seis meses, você cuida do seu sorriso e protege sua saúde geral. É um investimento na qualidade de vida a longo prazo.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20Periodontia." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
             </div>
-            <div class="ba-handle" style="left:50%"></div>
           </div>
 
-          <!-- Caso 2 -->
-          <div class="ba-slider aspect-[4/3] rounded-2xl overflow-hidden bg-charcoal/10 select-none" data-ba>
-            <div class="absolute inset-0 flex items-center justify-center bg-emerald-clinic/5 text-emerald-clinic/40 text-sm z-0">Imagem "Antes" — Caso 2 (600&times;450)</div>
-            <div class="ba-after" style="width:50%">
-              <div class="ba-after-inner w-full h-full flex items-center justify-center bg-gold-clinic/10 text-gold-clinic/60 text-sm">Imagem "Depois" — Caso 2 (600&times;450)</div>
+          <!-- Prótese -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375"/></svg>
             </div>
-            <div class="ba-handle" style="left:50%"></div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Prótese</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Próteses fixas e próteses sobre implantes de alta qualidade para devolver funcionalidade e beleza.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-protese">Saiba mais &darr;</button>
+            <div id="spec-protese" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">Trabalhamos exclusivamente com próteses fixas — incluindo próteses sobre implantes — que proporcionam segurança, conforto e um resultado estético superior, indistinguível dos dentes naturais.</p>
+              <p class="mb-4">Cada peça é planejada de forma personalizada, considerando a anatomia, a oclusão e a harmonia facial do paciente para garantir funcionalidade e durabilidade.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20Pr%C3%B3tese%20Dent%C3%A1ria." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
           </div>
 
-          <!-- Caso 3 -->
-          <div class="ba-slider aspect-[4/3] rounded-2xl overflow-hidden bg-charcoal/10 select-none" data-ba>
-            <div class="absolute inset-0 flex items-center justify-center bg-emerald-clinic/5 text-emerald-clinic/40 text-sm z-0">Imagem "Antes" — Caso 3 (600&times;450)</div>
-            <div class="ba-after" style="width:50%">
-              <div class="ba-after-inner w-full h-full flex items-center justify-center bg-gold-clinic/10 text-gold-clinic/60 text-sm">Imagem "Depois" — Caso 3 (600&times;450)</div>
+          <!-- Reabilitação Oral -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182"/></svg>
             </div>
-            <div class="ba-handle" style="left:50%"></div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Reabilitação Oral</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Plano integrado para restaurar saúde, função e estética bucal em casos complexos.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-reab">Saiba mais &darr;</button>
+            <div id="spec-reab" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">A reabilitação oral é um tratamento completo que envolve o planejamento conjunto de diversas especialidades — prótese, implantes, periodontia e estética — para reconstruir a saúde e a harmonia da boca como um todo.</p>
+              <p class="mb-4">Cada caso é avaliado de forma individualizada, com acompanhamento personalizado em todas as etapas, visando devolver função mastigatória, conforto e um sorriso natural.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20Reabilita%C3%A7%C3%A3o%20Oral." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
           </div>
 
-          <!-- Caso 4 -->
-          <div class="ba-slider aspect-[4/3] rounded-2xl overflow-hidden bg-charcoal/10 select-none" data-ba>
-            <div class="absolute inset-0 flex items-center justify-center bg-emerald-clinic/5 text-emerald-clinic/40 text-sm z-0">Imagem "Antes" — Caso 4 (600&times;450)</div>
-            <div class="ba-after" style="width:50%">
-              <div class="ba-after-inner w-full h-full flex items-center justify-center bg-gold-clinic/10 text-gold-clinic/60 text-sm">Imagem "Depois" — Caso 4 (600&times;450)</div>
+          <!-- Ortodontia -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"/></svg>
             </div>
-            <div class="ba-handle" style="left:50%"></div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Ortodontia</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Correção do alinhamento dentário e da mordida com aparelhos fixos, removíveis e alinhadores transparentes.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-orto">Saiba mais &darr;</button>
+            <div id="spec-orto" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">O tratamento ortodôntico vai além da estética: corrigir a mordida melhora a mastigação, a respiração e previne desgastes dentários e dores na articulação (ATM).</p>
+              <p class="mb-4">Trabalhamos com aparelhos metálicos, estéticos e alinhadores transparentes, adaptando o tratamento às necessidades e ao estilo de vida de cada paciente.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20Ortodontia." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center text-xs text-charcoal/50 mt-8 max-w-md mx-auto">
-          *Os resultados podem variar de acordo com cada paciente. As imagens são meramente ilustrativas e foram autorizadas pelos pacientes.
-        </p>
+          <!-- Implantes / Cirurgia Oral -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17l-5.1-5.1a2.121 2.121 0 113-3l5.1 5.1m0 0l5.1 5.1a2.121 2.121 0 01-3 3l-5.1-5.1zm0 0L9 21m3.42-5.83L15 12"/></svg>
+            </div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Implantes / Cirurgia Oral</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Solução definitiva para a perda de dentes, devolvendo função mastigatória e estética.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-implante">Saiba mais &darr;</button>
+            <div id="spec-implante" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">O implante dentário substitui a raiz do dente perdido por um pino de titânio biocompatível, sobre o qual é fixada uma coroa protética com aparência totalmente natural.</p>
+              <p class="mb-4">É a solução mais moderna e duradoura para a perda dentária, prevenindo a reabsorção óssea e devolvendo função mastigatória, fala e autoconfiança.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20Implantes%20e%20Cirurgia%20Oral." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
+          </div>
 
-        <div class="text-center mt-10">
-          <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Vi%20os%20resultados%20no%20site%20e%20gostaria%20de%20transformar%20meu%20sorriso!"
-             target="_blank" rel="noopener"
-             class="inline-flex items-center gap-2 bg-emerald-clinic hover:bg-emerald-clinic/90 text-white font-semibold px-8 py-3.5 rounded-full transition-colors shadow-lg">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            Quero Transformar Meu Sorriso
-          </a>
+          <!-- Odontologia do Sono -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"/></svg>
+            </div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Odontologia do Sono</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Tratamento de ronco e apneia obstrutiva do sono com dispositivos intraorais personalizados.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-sono">Saiba mais &darr;</button>
+            <div id="spec-sono" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">O ronco e a apneia do sono podem comprometer significativamente a qualidade de vida, causando cansaço crônico, dores de cabeça e até problemas cardiovasculares.</p>
+              <p class="mb-4">Os dispositivos intraorais são uma alternativa confortável e eficaz ao CPAP, reposicionando a mandíbula durante o sono para manter as vias aéreas abertas e melhorar a qualidade do descanso.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20Odontologia%20do%20Sono." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- DTM -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59"/></svg>
+            </div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">DTM</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Diagnóstico e tratamento da disfunção temporomandibular — dores na mandíbula, estalos e desconforto.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-dtm">Saiba mais &darr;</button>
+            <div id="spec-dtm" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">A disfunção temporomandibular (DTM) pode causar dores de cabeça, zumbido no ouvido, dificuldade para abrir a boca e estalos na articulação. Muitas vezes está associada ao bruxismo e ao estresse.</p>
+              <p class="mb-4">O tratamento inclui placas oclusais, ajustes na mordida e orientações posturais para aliviar os sintomas e devolver qualidade de vida ao paciente.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20DTM." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Endodontia -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/></svg>
+            </div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Endodontia</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Tratamento de canal moderno e indolor para salvar dentes comprometidos.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-endo">Saiba mais &darr;</button>
+            <div id="spec-endo" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">O tratamento de canal remove a polpa infectada do interior do dente, elimina bactérias e sela os canais para preservar a estrutura natural e evitar a extração.</p>
+              <p class="mb-4">Com técnicas modernas e anestesia eficiente, o procedimento é indolor e pode ser concluído em poucas sessões, devolvendo saúde e funcionalidade ao dente.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20sobre%20Endodontia." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Odontopediatria -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z"/></svg>
+            </div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Odontopediatria</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Cuidado odontológico especializado para crianças, com abordagem lúdica e acolhedora.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-pediatria">Saiba mais &darr;</button>
+            <div id="spec-pediatria" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">A saúde bucal na infância é a base para dentes saudáveis na vida adulta. Com uma abordagem lúdica e acolhedora, criamos uma experiência positiva para que as crianças desenvolvam hábitos de higiene desde cedo.</p>
+              <p class="mb-4">Realizamos avaliações, aplicação de flúor, selantes e orientação aos pais sobre cuidados diários com a dentição infantil.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20de%20Odontopediatria." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Prevenção -->
+          <div class="bg-cream rounded-2xl p-6 shadow-sm border border-transparent hover:border-gold-clinic/30 transition-all duration-300">
+            <div class="w-14 h-14 bg-emerald-clinic/10 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-7 h-7 text-emerald-clinic" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+            </div>
+            <h3 class="font-serif text-lg text-emerald-clinic font-semibold mb-2">Prevenção</h3>
+            <p class="text-sm text-charcoal/70 leading-relaxed mb-3">Limpeza profissional, aplicação de flúor e avaliações periódicas para manter sua saúde bucal em dia.</p>
+            <button class="spec-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="spec-prevencao">Saiba mais &darr;</button>
+            <div id="spec-prevencao" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
+              <p class="mb-2">A manutenção preventiva é essencial não apenas para a saúde bucal, mas também para garantir a <strong>longevidade dos trabalhos protéticos e estéticos</strong> já realizados. A limpeza profissional remove o biofilme e o tártaro que a escovação sozinha não alcança.</p>
+              <p class="mb-4">Consultas periódicas permitem identificar problemas precocemente, evitando tratamentos mais complexos e mantendo seus dentes — naturais ou restaurados — em perfeito estado por muito mais tempo.</p>
+              <a href="https://wa.me/5561981121737?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20de%20Preven%C3%A7%C3%A3o." target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-emerald-clinic font-semibold hover:underline">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Contate-nos &rarr;
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -416,13 +455,12 @@
         <div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
           <!-- Dra. Vanderlene -->
           <div class="text-center group">
-            <div class="w-48 h-48 mx-auto rounded-full bg-emerald-clinic/10 mb-6 overflow-hidden flex items-center justify-center text-emerald-clinic/30 text-sm ring-4 ring-gold-clinic/20 group-hover:ring-gold-clinic/50 transition-all">
-              <!-- Substituir por: <img src="assets/dra-vanderlene.jpg" alt="Dra. Vanderlene Ferreira Sanches Guimarães" class="w-full h-full object-cover"> -->
-              Foto Dra. Vanderlene
+            <div class="w-48 h-48 mx-auto rounded-full bg-emerald-clinic/10 mb-6 overflow-hidden flex items-center justify-center ring-4 ring-gold-clinic/20 group-hover:ring-gold-clinic/50 transition-all">
+              <img src="assets/profile/image.png" alt="Dra. Vanderlene Ferreira Sanches Guimarães" class="w-full h-full object-cover">
             </div>
             <h3 class="font-serif text-xl text-emerald-clinic font-semibold mb-1">Dra. Vanderlene Ferreira Sanches Guimarães</h3>
-            <p class="text-gold-clinic text-sm font-medium mb-3">Cirurgiã-Dentista | Especialista em Odontologia Estética</p>
-            <p class="text-sm text-charcoal/60 mb-2">CRO-DF 0000</p>
+            <p class="text-gold-clinic text-sm font-medium mb-3">Cirurgiã-Dentista | Estética do Sorriso | Reabilitação Oral | Periodontia</p>
+            <p class="text-sm text-charcoal/60 mb-2">CRO-DF 2504</p>
             <p class="text-sm text-charcoal/70 leading-relaxed max-w-sm mx-auto">
               Com ampla experiência em odontologia estética, a Dra. Vanderlene é apaixonada por transformar sorrisos e devolver a autoestima dos seus pacientes por meio de tratamentos modernos e personalizados.
             </p>
@@ -435,10 +473,10 @@
               Foto Dra. Francine
             </div>
             <h3 class="font-serif text-xl text-emerald-clinic font-semibold mb-1">Dra. Francine Sesti</h3>
-            <p class="text-gold-clinic text-sm font-medium mb-3">Cirurgiã-Dentista | Especialista em Reabilitação Oral</p>
+            <p class="text-gold-clinic text-sm font-medium mb-3">Ortodontia | Odontologia do Sono | Disfunção de ATM</p>
             <p class="text-sm text-charcoal/60 mb-2">CRO-DF 0000</p>
             <p class="text-sm text-charcoal/70 leading-relaxed max-w-sm mx-auto">
-              Especialista em reabilitação oral, a Dra. Francine combina técnica e sensibilidade para devolver função e beleza ao sorriso, com foco em próteses e implantes de última geração.
+              Especialista em ortodontia, odontologia do sono e disfunção de ATM, a Dra. Francine combina técnica e sensibilidade para devolver função, conforto e qualidade de vida aos seus pacientes.
             </p>
           </div>
         </div>
@@ -545,7 +583,6 @@
               <button class="blog-toggle text-sm text-gold-clinic font-semibold hover:underline" data-target="blog-4">Leia mais &darr;</button>
               <div id="blog-4" class="hidden mt-3 text-sm text-charcoal/70 leading-relaxed border-t border-charcoal/10 pt-3">
                 <p class="mb-2"><strong>Higienize diariamente:</strong> Escove a prótese com escova de cerdas macias e sabão neutro ou pasta específica. Evite pasta de dente comum, que pode ser abrasiva.</p>
-                <p class="mb-2"><strong>Remova para dormir:</strong> Deixe a prótese de molho em solução apropriada durante a noite para eliminar bactérias e permitir que a gengiva descanse.</p>
                 <p class="mb-2"><strong>Evite quedas:</strong> Ao manusear a prótese, faça-o sobre uma toalha ou pia com água para amortecer possíveis quedas.</p>
                 <p class="mb-2"><strong>Visite o dentista regularmente:</strong> Consultas semestrais são essenciais para avaliar o ajuste da prótese e a saúde da mucosa oral.</p>
                 <p>Se sua prótese está desconfortável ou danificada, entre em contato para uma avaliação.</p>
@@ -584,8 +621,8 @@
               <h3 class="font-serif text-xl text-emerald-clinic font-semibold mb-3">Endereço</h3>
               <p class="text-charcoal/80 leading-relaxed">
                 Centro Médico Lúcio Costa<br>
-                SGAS 610/611 — Via L2 Sul<br>
-                Bloco I, Sala 206<br>
+                SGAS 610 — Asa Sul<br>
+                Bloco 01, Sala 206<br>
                 Brasília — DF, CEP 70200-700
               </p>
             </div>
@@ -673,8 +710,7 @@
           <h4 class="font-semibold text-white mb-4">Links Rápidos</h4>
           <ul class="space-y-2 text-sm">
             <li><a href="#sobre" class="hover:text-gold-clinic transition-colors">Sobre a Clínica</a></li>
-            <li><a href="#tratamentos" class="hover:text-gold-clinic transition-colors">Tratamentos</a></li>
-            <li><a href="#antes-depois" class="hover:text-gold-clinic transition-colors">Antes e Depois</a></li>
+            <li><a href="#tratamentos" class="hover:text-gold-clinic transition-colors">Especialidades</a></li>
             <li><a href="#equipe" class="hover:text-gold-clinic transition-colors">Nossa Equipe</a></li>
             <li><a href="#blog" class="hover:text-gold-clinic transition-colors">Blog</a></li>
             <li><a href="#localizacao" class="hover:text-gold-clinic transition-colors">Localização</a></li>
@@ -685,7 +721,7 @@
         <div>
           <h4 class="font-semibold text-white mb-4">Contato</h4>
           <address class="not-italic text-sm space-y-2">
-            <p>Centro Médico Lúcio Costa<br>SGAS 610/611 — Via L2 Sul<br>Bloco I, Sala 206 — Brasília/DF</p>
+            <p>Centro Médico Lúcio Costa<br>SGAS 610 — Asa Sul<br>Bloco 01, Sala 206 — Brasília/DF</p>
             <p>
               <a href="tel:+556133264031" class="hover:text-gold-clinic transition-colors">(61) 3326-4031</a><br>
               <a href="tel:+5561981121737" class="hover:text-gold-clinic transition-colors">(61) 98112-1737</a>
@@ -744,55 +780,14 @@
     );
     navObserver.observe(hero);
 
-    // --- Before / After Slider ---
-    document.querySelectorAll('[data-ba]').forEach(slider => {
-      const handle = slider.querySelector('.ba-handle');
-      const afterPane = slider.querySelector('.ba-after');
-      const afterInner = slider.querySelector('.ba-after-inner');
-      let isDragging = false;
-
-      function syncInnerWidth() {
-        if (afterInner) afterInner.style.width = slider.offsetWidth + 'px';
-      }
-      syncInnerWidth();
-      window.addEventListener('resize', syncInnerWidth);
-
-      function getPosition(e) {
-        const rect = slider.getBoundingClientRect();
-        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-        let x = clientX - rect.left;
-        return Math.max(0, Math.min(x, rect.width));
-      }
-
-      function updateSlider(x) {
-        const pct = (x / slider.offsetWidth) * 100;
-        afterPane.style.width = pct + '%';
-        handle.style.left = pct + '%';
-      }
-
-      function onStart(e) {
-        e.preventDefault();
-        isDragging = true;
-      }
-
-      function onMove(e) {
-        if (!isDragging) return;
-        updateSlider(getPosition(e));
-      }
-
-      function onEnd() {
-        isDragging = false;
-      }
-
-      handle.addEventListener('mousedown', onStart);
-      handle.addEventListener('touchstart', onStart, { passive: false });
-      window.addEventListener('mousemove', onMove);
-      window.addEventListener('touchmove', onMove, { passive: true });
-      window.addEventListener('mouseup', onEnd);
-      window.addEventListener('touchend', onEnd);
-
-      slider.addEventListener('click', e => {
-        updateSlider(getPosition(e));
+    // --- Specialty Accordion ---
+    document.querySelectorAll('.spec-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.getAttribute('data-target');
+        const content = document.getElementById(targetId);
+        const isHidden = content.classList.contains('hidden');
+        content.classList.toggle('hidden');
+        btn.innerHTML = isHidden ? 'Fechar &uarr;' : 'Saiba mais &darr;';
       });
     });
 
